@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi I'm Dipali Sonawane 👋
 
 <!--
 **dips2022/dips2022** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
