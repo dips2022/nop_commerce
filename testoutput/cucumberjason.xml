@@ -1,0 +1,147 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-24T08:06:30.016Z",
+        "line": 22,
+        "name": "To validate firstname,lastname,email,contact functionality",
+        "description": "",
+        "id": "filling-form;to-validate-firstname-lastname-email-contact-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4614934200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "open browser \u0026 enter the url",
+            "match": {
+              "location": "simpleform.open_browser_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1611888400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "check url is validated",
+            "match": {
+              "location": "simpleform.check_url_is_validated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223743400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "users enter username",
+            "match": {
+              "location": "simpleform.users_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232139500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "users enter lastname",
+            "match": {
+              "location": "simpleform.users_enter_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248592800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "users enter email",
+            "match": {
+              "location": "simpleform.users_enter_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155279200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "users enter contact",
+            "match": {
+              "location": "simpleform.users_enter_contact()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188323700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "users enter message",
+            "match": {
+              "location": "simpleform.users_enter_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111855600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "simpleform.user_clicks_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Thank You for reaching out to us, dipali Sonawane}\n  (Session info: chrome\u003d120.0.6099.225): Thank You for reaching out to us, dipali Sonawane\nBuild info: version: \u00274.16.1\u0027, revision: \u00279b4c83354e\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [132549a9e6f0e1237f244341e8fa5edb, findElement {using\u003dxpath, value\u003d//input[@class \u003d \u0027ui green button\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\\Users\\asus\\AppData\\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56143}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56143/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 132549a9e6f0e1237f244341e8fa5edb\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)\r\n\tat formfillup.simpleform.pop_up_show_thank_you_for_reaching_out_to_us(simpleform.java:64)\r\n\tat ✽.pop-up show thank you for reaching out to us(file:src/test/resources/SimpleForm/form.feature:31)\r\n",
+              "duration": 38241600,
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "pop-up show thank you for reaching out to us",
+            "match": {
+              "location": "simpleform.pop_up_show_thank_you_for_reaching_out_to_us()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Filling form",
+    "description": "",
+    "id": "filling-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/SimpleForm/form.feature",
+    "tags": [
+      {
+        "name": "@tag1",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
