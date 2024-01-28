@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-28T19:20:26 IST" name="Surefire suite" finished-at="2024-01-28T19:21:04 IST" duration-ms="37767">
+    <groups>
+      <group name="Regression">
+        <method signature="DesktopEle3.Email()[pri:0, instance:RegisterForm.DesktopEle3@670002]" name="Email" class="RegisterForm.DesktopEle3"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="DesktopEle3.CheckTitle()[pri:0, instance:RegisterForm.DesktopEle3@670002]" name="CheckTitle" class="RegisterForm.DesktopEle3"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="DesktopEle3.Checkdetails()[pri:0, instance:RegisterForm.DesktopEle3@670002]" name="Checkdetails" class="RegisterForm.DesktopEle3"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-01-28T19:20:26 IST" name="Surefire test" finished-at="2024-01-28T19:21:04 IST" duration-ms="37767">
+      <class name="RegisterForm.DesktopEle3">
+        <test-method is-config="true" signature="configReport()[pri:0, instance:RegisterForm.DesktopEle3@670002]" started-at="2024-01-28T19:20:26 IST" name="configReport" finished-at="2024-01-28T19:20:27 IST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:RegisterForm.DesktopEle3@670002]" started-at="2024-01-28T19:20:27 IST" name="setup" finished-at="2024-01-28T19:20:32 IST" duration-ms="5270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckTitle()[pri:0, instance:RegisterForm.DesktopEle3@670002]" started-at="2024-01-28T19:20:32 IST" name="CheckTitle" finished-at="2024-01-28T19:20:34 IST" duration-ms="2360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:RegisterForm.DesktopEle3@670002]" started-at="2024-01-28T19:20:34 IST" name="teardown" finished-at="2024-01-28T19:20:35 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:RegisterForm.DesktopEle3@670002]" started-at="2024-01-28T19:20:35 IST" name="setup" finished-at="2024-01-28T19:20:38 IST" duration-ms="2763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Checkdetails()[pri:0, instance:RegisterForm.DesktopEle3@670002]" started-at="2024-01-28T19:20:38 IST" name="Checkdetails" finished-at="2024-01-28T19:20:48 IST" duration-ms="9926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkdetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:RegisterForm.DesktopEle3@670002]" started-at="2024-01-28T19:20:48 IST" name="teardown" finished-at="2024-01-28T19:20:48 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:RegisterForm.DesktopEle3@670002]" started-at="2024-01-28T19:20:48 IST" name="setup" finished-at="2024-01-28T19:20:51 IST" duration-ms="2867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Email()[pri:0, instance:RegisterForm.DesktopEle3@670002]" started-at="2024-01-28T19:20:51 IST" name="Email" finished-at="2024-01-28T19:21:03 IST" duration-ms="11845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:RegisterForm.DesktopEle3@670002]" started-at="2024-01-28T19:21:03 IST" name="teardown" finished-at="2024-01-28T19:21:03 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="last()[pri:0, instance:RegisterForm.DesktopEle3@670002]" started-at="2024-01-28T19:21:03 IST" name="last" finished-at="2024-01-28T19:21:04 IST" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last -->
+      </class> <!-- RegisterForm.DesktopEle3 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
